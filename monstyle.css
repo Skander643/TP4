@@ -1,0 +1,108 @@
+
+header {
+    background-color: rgb(255,113,159);
+}
+
+nav {
+    width: 150px;
+    flex-direction: row; 
+    gap: 10px; 
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+h1 {
+    font-family: "Lucida Calligraphy", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+section {
+    margin-left: 170px;
+    border-top: solid 2px rgb(255,113,159);
+    border-bottom: solid 2px rgb(255,113,159);
+}
+
+footer {
+    background-color: rgb(255,113,159);
+    color: white;
+    text-align: center;
+}
+
+.classfooter {
+    padding: 7px;
+    font-size: 18px;
+}
+
+.groupeAside {
+    float: right;
+    width: 300px;
+}
+
+article {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-right: 320px;
+}
+
+.Promotion {
+    color: rgb(255,113,159);
+    text-align: center;
+    font-weight: bold;
+}
+
+.image {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desArticle {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+aside {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border: solid 1px rgb(255,113,159);
+    width: 100px;
+}
+
+p.desArticle {
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 6px;
+    padding: 3px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 18px;
+    border: solid 1px white;
+    background-color: rgb(255,113,159);
+    color: white;
+}
+
+a:hover {
+    background-color: white;
+    color: rgb(255,113,159);
+    text-decoration: underline;
+}
+
+a.footer:hover {
+    text-decoration: underline;
+}
+
+a.afooter {
+    text-decoration: none;
+    color: white;
+}
